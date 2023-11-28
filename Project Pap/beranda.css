@@ -1,0 +1,501 @@
+
+/* Tambahkan gaya CSS sesuai kebutuhan Anda */
+header {
+    background-color: #069DBF;
+    color: rgb(0, 0, 0);
+    padding : 10px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+#tulisan {
+    text-align: left;
+
+}
+
+#header_img {
+    max-height: 140px; /* Sesuaikan tinggi logo sesuai kebutuhan */ 
+    margin-right: 30px; /* Beri margin agar ada jarak antara logo dan teks */
+    he
+}
+
+#language-selector{
+    text
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #069DBF;
+    padding: 5px;
+}
+
+#menu {
+    background-color: #069DBF;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: double;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#beranda{
+    color: #461973;
+    font-weight: bold;
+}
+
+#search-box{
+    position: absolute;
+    top: 100px;
+    left: 800px;
+
+}
+
+#search{
+    width:300px;
+}
+
+.language-selector{
+    position: absolute;
+    top: 40px;
+    left: 1000px;
+}
+
+#color{
+    color : #eeeeee;
+    background-color: #000000;
+}
+
+#indonesia{
+    position: absolute;
+    top: -30px;
+    left: 0;
+    height: 30px; 
+}
+.teks1 {
+    position: absolute;
+    top: -40px;
+    left: 33px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.teks2 {
+    position: absolute;
+    top: -40px;
+    left: 165px;
+    font-size: 15px;
+}
+
+#amerika{
+    position: absolute;
+    top: -30px;
+    left: 130px;
+    height: 30px; 
+}
+
+#hr1 {
+    border: 3px solid #000;
+} 
+
+#image2{
+    width: 1250px; /* Lebar maksimum gambar */
+    height: 600px; /* Tinggi maksimum gambar */
+}
+
+#carousel{
+    width: 60px;
+    position: absolute;
+    top : 720px;
+    left : 600px;
+
+
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    left: 130px;
+    right
+
+}
+
+/* Gaya CSS untuk gambar */
+.gambar {
+    width: 300px; 
+    height: 350px;
+    margin-right: 80px; 
+}
+
+/* Gaya CSS untuk penjelasan */
+.penjelasan {
+    flex: 1; 
+    overflow: hidden;
+    color: #2b97d5;
+    font-weight: bold;
+}
+
+#keterangan {
+    color: #000000;
+    font-style: normal;
+    text-align: justify;
+    font-weight: normal;
+    width: 600px;
+    height: 80px;
+}
+
+#color1{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    color: #069DBF;
+    width: 120px; 
+    height: 30px;
+    border-color: #069DBF;
+    
+}
+
+.beritaterkini{
+    position: absolute;
+    left: 100px;
+    color: #069DBF;
+    font-weight: bold;
+}
+
+#hr2 {
+    position: absolute;
+    left: 0;
+    border: 2px solid #000;
+    width: 100px;
+}
+
+.card1 {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 70px;
+    top: 1455px;
+}
+
+
+#berita1{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.card2 {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 450px;
+    top: 1455px;
+}
+#berita2{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card3 {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 840px;
+    top: 1453px;
+}
+
+#berita3{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: justify;
+}
+
+.card-description {
+    font-size: 16px;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+.Pendaftaran{
+    position: absolute;
+    left: 100px;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+#hr3 {
+    position: absolute;
+    left: 0;
+    border: 2px solid #000; 
+    width: 200px;
+}
+
+.pendaftaran1 {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 70px;
+    top: 2160px;
+}
+
+
+#pendaftaran1{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.pendaftaran2 {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 450px;
+    top: 2160px;
+}
+#pendaftaran2{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.pendaftaran3 {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 840px;
+    top: 2160px;
+}
+
+#pendaftaran3{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-titlee {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: justify;
+    color :#069DBF;
+}
+
+.card-description {
+    font-size: 14px;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+.Kegiatan{
+    position: absolute;
+    left: 100px;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+#hr4 {
+    position: absolute;
+    left: 0;
+    border: 2px solid #000; 
+    width: 230px;
+}
+
+.kegiatan1 {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 70px;
+    top: 2820px;
+}
+
+
+#kegiatan1{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#hr5 {
+    position: absolute;
+    left: 0;
+    border: 1.5px solid #000; 
+    width: 240px;
+}
+
+
+.kegiatan2 {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 450px;
+    top: 2820px;
+}
+#kegiatan2{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.kegiatan3 {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 840px;
+    top: 2820px;
+}
+
+#kegiatan3{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-titlee {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: justify;
+    color :#069DBF;
+}
+
+.card-description {
+    font-size: 14px;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+.Kegiatan{
+    position: absolute;
+    left: 100px;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+#hr6{
+    border: 2px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.logo {
+    float: left;
+    margin-right: 20px;
+}
+
+.logo img {
+    width: 50px; /* Sesuaikan ukuran logo sesuai kebutuhan */
+    height: auto;
+}
+
+
+
+
